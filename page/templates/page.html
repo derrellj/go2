@@ -1,0 +1,10 @@
+{% load static %}
+<title>{% block title %}My amazing site{% endblock %}</title>
+
+{% block content %}
+  <h1>{% block heading %}My amazing site{% endblock %}</h1>
+  <div class="content">
+    {% block body %}
+    {% endblock %}
+  </div>
+{% endblock %}
